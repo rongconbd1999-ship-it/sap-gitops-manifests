@@ -95,3 +95,7 @@ images:
   - name: shippingservice
     newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/shippingservice
     newTag: "1"
+    
+# Thêm dòng này vào đáy file
+imagePullSecrets:
+  - name: regcred
