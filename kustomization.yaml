@@ -14,6 +14,8 @@
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+namespace: devops-tools
+
 resources:
  - ingress.yaml
  - adservice.yaml
@@ -39,8 +41,6 @@ resources:
 # - ../kustomize/components/container-images-tag-suffix
 # - ../kustomize/components/container-images-registry
 # THÊM DÒNG NÀY VÀO NGAY ĐẦU FILE:
-namespace: devops-tools
-
 images:
 resources:
   - adservice.yaml
