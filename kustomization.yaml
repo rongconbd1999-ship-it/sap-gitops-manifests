@@ -37,6 +37,9 @@ resources:
 # - ../kustomize/components/container-images-tag
 # - ../kustomize/components/container-images-tag-suffix
 # - ../kustomize/components/container-images-registry
+# THÊM DÒNG NÀY VÀO NGAY ĐẦU FILE:
+namespace: devops-tools
+
 images:
 resources:
   - adservice.yaml
