@@ -38,33 +38,60 @@ resources:
 # - ../kustomize/components/container-images-tag-suffix
 # - ../kustomize/components/container-images-registry
 images:
+resources:
+  - adservice.yaml
+  - cartservice.yaml
+  - checkoutservice.yaml
+  - currencyservice.yaml
+  - emailservice.yaml
+  - frontend.yaml
+  - loadgenerator.yaml
+  - paymentservice.yaml
+  - productcatalogservice.yaml
+  - recommendationservice.yaml
+  - shippingservice.yaml
+
+images:
   - name: adservice
-    newName: gcr.io/google-samples/microservices-demo/adservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/adservice
+    newTag: "1"
+
   - name: cartservice
-    newName: gcr.io/google-samples/microservices-demo/cartservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/cartservice
+    newTag: "3"
+
   - name: checkoutservice
-    newName: gcr.io/google-samples/microservices-demo/checkoutservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/checkoutservice
+    newTag: "1"
+
   - name: currencyservice
-    newName: gcr.io/google-samples/microservices-demo/currencyservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/currencyservice
+    newTag: "1"
+
   - name: emailservice
-    newName: gcr.io/google-samples/microservices-demo/emailservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/emailservice
+    newTag: "1"
+
+  - name: frontend
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/frontend
+    newTag: "29"
+
   - name: loadgenerator
-    newName: gcr.io/google-samples/microservices-demo/loadgenerator
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/loadgenerator
+    newTag: "1"
+
   - name: paymentservice
-    newName: gcr.io/google-samples/microservices-demo/paymentservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/paymentservice
+    newTag: "1"
+
   - name: productcatalogservice
-    newName: gcr.io/google-samples/microservices-demo/productcatalogservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/productcatalogservice
+    newTag: "1"
+
   - name: recommendationservice
-    newName: gcr.io/google-samples/microservices-demo/recommendationservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/recommendationservice
+    newTag: "1"
+
   - name: shippingservice
-    newName: gcr.io/google-samples/microservices-demo/shippingservice
-    newTag: v0.9.0
+    newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/shippingservice
+    newTag: "1"
