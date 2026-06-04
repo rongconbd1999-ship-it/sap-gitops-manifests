@@ -58,7 +58,7 @@ resources:
 images:
   - name: adservice
     newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/adservice
-    newTag: "3"
+    newTag: "4"
 
   - name: cartservice
     newName: 283236069347.dkr.ecr.ap-southeast-1.amazonaws.com/sap2506/cartservice
