@@ -93,7 +93,7 @@ spec:
           # - name: ENABLE_ASSISTANT
           #   value: "true"
           - name: FRONTEND_MESSAGE
-            value: "Welcome to the online website - 2 June 2026"
+            value: "LAb Today 4 June 2026 Ver 1"
           # As part of an optional Google Cloud demo, you can run an optional microservice called the "packaging service".
           # - name: PACKAGING_SERVICE_URL
           #   value: "" # This value would look like "http://123.123.123"
